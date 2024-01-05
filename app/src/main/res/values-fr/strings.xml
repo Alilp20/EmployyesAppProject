@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Employé</string>
+    <string name="add_an_employee">Ajouter un employé</string>
+    <string name="delete_an_employee">Supprimer un employé</string>
+    <string name="search_for_an_employee">Recherche un employé</string>
+    <string name="upadate_an_employee">Mise à jour un employé</string>
+    <string name="show_all_employees">Afficher tous les employés</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="arabic">Arabe</string>
+    <string name="update_an_employee_by_id">Mise à jour de l\'employee par id</string>
+    <string name="employee_id">Employé ID</string>
+    <string name="employee_first_name">Employé Prénom</string>
+    <string name="employee_last_name">Employé Nom</string>
+    <string name="employee_phone_number">Employé Numéro</string>
+    <string name="employee_e_mail">Employé E-mail</string>
+    <string name="employee_position">Employé Poste de travail</string>
+    <string name="update">Mise à jour</string>
+    <string name="cancel">Annuler</string>
+    <string name="add_a_new_employee">Ajouter un employé</string>
+    <string name="add">Ajouter</string>
+    <string name="delete">supprimer</string>
+    <string name="search_by_employee_s_id">Recherche un employé aavec son id</string>
+    <string name="search">Recherche</string>
+    <string name="list_of_all_employees">Liste de tous les employés</string>
+    <string name="employees_managment_app">Application de Management</string>
+    <string name="switch_theme">Change le theme</string>
+    <string name="call">Appel</string>
+    <string name="send_sms">Envoyer SMS</string>
+    <string name="send_an_emal">Envoyer Email</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".deleteEmployeeActivity">
+    <TextView
+        android:id="@+id/txtDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/delete_an_employee"
+        style="@style/TEXT"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EmployeeIdDeleteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/employee_id"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/FirstNameDeleteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/employee_first_name"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/LastNameDeleteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/employee_last_name"
+        android:inputType="text"
+        android:autofillHints="" />
+    <RelativeLayout
+        android:id="@+id/horizontalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/deleteEmployeeButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/BUTTON"
+            android:text="@string/delete"
+            app:cornerRadius="10dp" />
+        <Button
+            android:id="@+id/cancelDeletingEmployeeButton"
+            android:layout_alignParentEnd="true"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/BUTTON"
+            android:text="@string/cancel"
+            app:cornerRadius="10dp" />
+    </RelativeLayout>
+</LinearLayout>

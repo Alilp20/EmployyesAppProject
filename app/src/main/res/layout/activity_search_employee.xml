@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/SCREEN"
+    tools:context=".searchEmployeeActivity">
+
+    <TextView
+        android:id="@+id/txtSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/search_for_an_employee"
+        style="@style/TEXT"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/EmployeeIdSearchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_by_employee_s_id"
+        android:inputType="text"
+        android:autofillHints="" />
+    <RelativeLayout
+        android:id="@+id/horizontalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/SearchEmployeeButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/BUTTON"
+            android:text="@string/search"
+            app:cornerRadius="10dp" />
+        <Button
+            android:id="@+id/cancelSearchingEmployeeButton"
+            android:layout_alignParentEnd="true"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/BUTTON"
+            android:text="@string/cancel"
+            app:cornerRadius="10dp" />
+    </RelativeLayout>
+</LinearLayout>

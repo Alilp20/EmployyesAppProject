@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Employee</string>
+    <string name="add_an_employee">Add an employee</string>
+    <string name="delete_an_employee">Delete an employee</string>
+    <string name="search_for_an_employee">Search for an employee</string>
+    <string name="upadate_an_employee">Upadate an employee</string>
+    <string name="show_all_employees">Show all employees</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="arabic">Arabic</string>
+    <string name="update_an_employee_by_id">Update an employee by Id</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="employee_first_name">Employee First Name</string>
+    <string name="employee_last_name">Employee Last Name</string>
+    <string name="employee_phone_number">Employee Phone Number</string>
+    <string name="employee_e_mail">Employee E-mail</string>
+    <string name="employee_position">Employee Position</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_a_new_employee">Add a new employee</string>
+    <string name="add">Add</string>
+    <string name="delete">delete</string>
+    <string name="search_by_employee_s_id">Search By Employee\'s ID</string>
+    <string name="search">Search</string>
+    <string name="list_of_all_employees">List of all employees</string>
+    <string name="employees_managment_app">Employees Managment App</string>
+    <string name="switch_theme">Switch Theme</string>
+    <string name="call">Call</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="send_an_emal">Send an Emal</string>
+</resources>

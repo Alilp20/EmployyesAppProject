@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">عامل</string>
+    <string name="add_an_employee">إضافة عامل</string>
+    <string name="delete_an_employee">مسح عامل</string>
+    <string name="search_for_an_employee">البحث عن عامل</string>
+    <string name="upadate_an_employee">تغيير معلومات عامل</string>
+    <string name="show_all_employees">إضهار جميع العمال</string>
+    <string name="english">إنجليزية</string>
+    <string name="french">فرنسية</string>
+    <string name="arabic">العربية</string>
+    <string name="update_an_employee_by_id">تغيير معلومات العامل</string>
+    <string name="employee_id">رقم التسلسلي</string>
+    <string name="employee_first_name">الإسم</string>
+    <string name="employee_last_name">اللقب</string>
+    <string name="employee_phone_number">رقم الهاتف</string>
+    <string name="employee_e_mail">البريد الإلكتروني</string>
+    <string name="employee_position">منصب العامل</string>
+    <string name="update">تغيير</string>
+    <string name="cancel">رجوع</string>
+    <string name="add_a_new_employee">إضافة عامل جديد</string>
+    <string name="add">إضافة</string>
+    <string name="delete">مسح</string>
+    <string name="search_by_employee_s_id">بحث عن العامل برقمه التسلسلي</string>
+    <string name="search">بحث</string>
+    <string name="list_of_all_employees">قائمة جميع العمال</string>
+    <string name="employees_managment_app">تطبيق تنظيم العمال</string>
+    <string name="switch_theme">تغيير الواجهة</string>
+    <string name="call">إتصال</string>
+    <string name="send_sms">إرسال رسالة</string>
+    <string name="send_an_emal">إرسال بريد</string>
+</resources>
